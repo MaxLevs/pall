@@ -26,6 +26,7 @@ guard 'livereload' do
     png: :png,
     gif: :gif,
     jpg: :jpg,
+    php: :php,
     jpeg: :jpeg,
     # less: :less, # uncomment if you want LESS stylesheets done in browser
   }
@@ -34,7 +35,7 @@ guard 'livereload' do
 
   # file types LiveReload may optimize refresh for
   compiled_exts = extensions.values.uniq
-  watch(%r{public/.+\.(#{compiled_exts * '|'})})
+  watch(%r{.+\.(#{compiled_exts * '|'})})
 
   extensions.each do |ext, type|
     watch(%r{
