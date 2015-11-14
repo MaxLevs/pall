@@ -1,0 +1,22 @@
+{
+  "name": "matrix.rgz",
+  "description": "Libory matrix and multiplicate elements",
+  "main": "index.html",
+  "authors": [
+    "MaxLevs"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "lalka"
+  ],
+  "moduleType": [],
+  "homepage": "google.omg",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
